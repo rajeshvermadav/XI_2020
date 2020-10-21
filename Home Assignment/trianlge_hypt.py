@@ -2,9 +2,12 @@
 
 #from math import sqrt
 import math
-print("Input lengths of shorter triangle sides:")
-a = float(input("a: "))
-b = float(input("b: "))
+print("Input lengths of shorter triangle sides:-")
+
+a = float(input("a:-- "))
+
+b = float(input("b:-- "))
 
 c = math.sqrt(a**2 + b**2)
-print("The length of the hypotenuse is", c )
+
+print("The length of the hypotenuse is", c)
